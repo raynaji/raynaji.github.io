@@ -1,0 +1,793 @@
+<!DOCTYPE HTML>
+<!--
+	我综合了 Adham Dannaway Designer and Coder 的 face 创意想法，和 HTML5UP helios 模版里的 carousel 动画效果。
+	所有的 排版/字体/style 都需要在 main.css 里修改，一个小技巧是综合使用浏览器中 element inspect & styles 窗口来对应修改复制粘贴代码。#id .class。
+	动画效果的实现需要复制相应的 js 文件，同时在 main.js 里加入相应的变量设定。
+	最后需要在 index.html 代码最后连接新加入的 json 文件。
+-->
+<html>
+	<head>
+		<title>Rayna Ji's Portfolio</title>
+		<meta charset="utf-8" />
+		<meta property="og:title" content="Howdy. This is Rayna Ji."/>
+		<meta property="og:image" content="images/banner.jpg"/>
+		<link rel="images/banner.jpg">
+		<meta property="og:url" content="https://raynaji.github.io"/>
+		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
+		<meta property="og:description" content="Welcome to my personal website." />
+		<link rel="stylesheet" href="assets/css/main.css" />
+	</head>
+
+	<body class="homepage is-preload">
+		<div id="page-wrapper">
+
+			<!-- Header -->
+				<section id="header" class="wrapper">
+
+					<!-- Logo -->
+						<div id="logo">
+							<h1>Hi, I'm Rayna Ji</h1>
+							<p>A DATA ENTHUSIAST</p>
+							<ul class="actions special"><li><a href="images/Rayna Ji_Resume.pdf" class="button style2 large">Get my resume</a></li></ul>
+						</div>
+					
+					<!-- Nav -->
+						<nav id="nav">
+							<ul>
+								<li><a href="index.html">Home</a></li>
+								<li class="current">
+									<a href="">About me</a>
+									<ul>
+										<li><a href="#intro">The Introduction</a></li>
+										<li><a href="#skills">My Skills</a></li>
+									</ul>
+								</li>
+					
+								<li><a href="#projects">My Projects</a></li>
+								<li><a href="#blogs">My Blogs</a></li>
+								<li><a href="#vizs">My Visualizatioins</a></li>
+								<li><a href="#footer">Contact Me</a></li>
+								<!--
+								<li><a href="left-sidebar.html">My Projects</a></li>
+								<li><a href="right-sidebar.html">My Blogs</a></li>
+								<li><a href="no-sidebar.html">Contact Me</a></li>
+								-->
+							</ul>
+						</nav>
+
+				</section>
+
+
+			<!-- Intro -->
+				<section id="intro" class="wrapper style1">
+					<div class="title">The Introduction</div>
+
+					<div class="container">
+						<p class="style2">
+							Bridge the Gap<br class="mobile-hide" />
+						</p>
+						
+						<p class="style3">Drive business values through data analysis.</p>
+						<p class="style3">3+ years experiences in analytics and BI using SQL and Tableau for actionable business insights.</p>
+						<p class="style3">2+ years of experience with Python  and R for ETL (extract, transform, load), statistical analysis and ML. </p>
+						<p></p>
+
+					<!-- Face -->
+						<div id="face" class="face">
+						<!--
+							<a href="/portfolio">
+								<div id="designer" class="designer" style="opacity: 1;">
+									<div id="designer-desc" class="description">
+										<h1>analyst</h1>
+										<p>A communicator and a problem-solver who thinks critically about actionable business insights.</p>
+									</div>
+								</div>
+							</a>
+	
+							<a href="/about">
+								<div id="coder" class="coder" style="opacity: 1;">
+									<div id="coder-desc" class="description">
+										<h1>&lt;coder&gt;</h1>
+										<p>A coder in Python, R and Java to authenticate, collect, model and visualize data.</p>
+									</div>
+								</div>
+							</a>
+						-->
+							<img id="face-img" class="image face" src="images/face.jpg" style="opacity: 1;">
+						</div>
+
+						<p class="style3">
+							Design idea credited to<a href="http://www.adhamdannaway.com"> @Adham Dannaway</a>
+						</p>
+					</div>
+					
+					
+				</section>
+
+
+			<!-- Skills -->
+			<section id='skills'>
+				<section id="highlights" class="wrapper style2">
+					<div class="title">My Skills</div>
+					<div class="container">
+						<div class="row aln-center">
+							
+							<div class="col-4 col-12-medium">
+								<section class="highlight">
+									<h3><a>
+										Database Management
+									</a></h3>
+									<p>
+										#MySQL, #PyMysql <br /> #PySpark<br/> #Hive <br/> #MongoDB, #MongoClient
+										<!--<br />Presto <br />Oracle-->
+									</p>
+								</section>
+							</div>
+							<div class="col-4 col-12-medium">
+								<section class="highlight">
+									<h3><a>
+										Programming
+									</a></h3>
+									<p>
+										#ETL - Extract, Transform, Load: <br /> (Python:numpy,pandas; R:dplyr) <br />
+										#Web Scraping: <br /> (Python:BeautifulSoup; R:rvest; Java:jsoup) <br />
+										#Regular Expression (Python:re)
+									</p>
+								</section>
+							</div>
+							<div class="col-4 col-12-medium">
+								<section class="highlight">
+									<h3><a>
+										Visualization
+									</a></h3>
+									<p>
+										#Python (Matplotlib, Seaborn) <br />
+										#R (ggplot2) <br />
+										#<a href="images/Tableau Certificate.pdf">Tableau Desktop Certified Associate</a><br />
+										<!--Kepler (Geo-data) <br /> -->
+									</p>
+								</section>
+							</div>
+							<div class="col-4 col-12-medium">
+								<section class="highlight">
+									<h3><a>
+										Cloud Computing
+									</a></h3>
+									<p>
+										#<a href="images/AWS Certified Cloud Practitioner certificate.pdf">AWS Certified Practitioner</a> (EC2, S3, Lambda) <br />
+										#GCP (AutoML, Einstein)
+									</p>
+								</section>
+							</div>
+							<div class="col-4 col-12-medium">
+								<section class="highlight">
+									<h3><a>
+										Machine Learning
+									</a></h3>
+									<p>
+										#Regression <br />
+										#Classification: <br />
+										(LogisticRegression, SVM, RandomForest) <br />
+										#Clustering <br />
+										#NLP: <br />
+										(Sentiment Analysis, Topic Modeling, Word2Vec)
+									</p>
+								</section>
+							</div>
+							<div class="col-4 col-12-medium">
+								<section class="highlight">
+									<h3><a>
+										Growth Analytics
+									</a></h3>
+									<p>
+										#A/B Testing  <br />
+										#EOD (Experiment of Design) <br />
+										#Retention Analysis <br />
+										<!--AARRR Funnel <br />
+										Cohort Analysis <br />
+										Attrition Model-->
+									</p>
+								</section>
+							</div>
+							
+						</div>
+					</div>
+				</section>
+			</section>
+
+			
+			<!-- Projects -->
+			<section id='projects'>
+				<section id="highlights" class="wrapper style3">
+					<div class="title">My Projects</div>
+					<div class="container">
+
+						<div class="row aln-center">
+							<!-- Regex-->
+							<div class="col-4 col-12-medium">
+								<section class='highlight'>
+									<a class="image featured"><img src="images/regex.png" alt="" /></a>
+									<h3>
+										<a href="https://github.com/raynaji/Regular-expression-in-Python/blob/master/Regular%20Expressions%20in%20Python.ipynb">
+											ETL with Regex on mock data
+										</a>
+									</h3>
+									<p>A wholistic summary of the most common syntax and functions of the "re" module in Python with hands-on Regex practices for ETL (Extract, Transform, Load).</p>
+								</section>
+							</div>
+							
+							<!-- eBay-->
+							<div class="col-4 col-12-medium">
+								<section class='highlight'>
+									<a class="image featured"><img src="images/ebay.png" alt="" /></a>
+									<h3>
+										<a href="https://github.com/raynaji/eBay-WebScraping/blob/master/eBay%20Web%20Scraping%20to%20identify%20features%20of%20Sponsored%20and%20Non-Sponsored%20items.ipynb">
+											eBay sponsored items Web-Scraping
+										</a>
+									</h3>
+									<p>Curious about the differences between sponsored and non-sponsored items on eBay? <br/>
+										Check out this Python script that web-scraped and stored information into a database via "BeautifulSoup" and "PyMysql". </p>
+								</section>
+							</div>
+
+							<!-- USNews-->
+							<div class="col-4 col-12-medium">
+								<section class='highlight'>
+									<a class="image featured"><img src="images/usnews.png" alt="" /></a>
+									<h3>
+										<a href="https://github.com/raynaji/USNews-WebScraping-in-Python-R-Java">
+											USNews top stories Web-Scraping
+										</a>
+									</h3>
+									<p>
+										You can fetch the real-time headlines and the first three lines of the top stories for simplicity and time in either
+										<a href="https://github.com/raynaji/USNews-WebScraping/blob/master/USNews%20Top%20Stories%20WebScraping.ipynb">
+											Python
+										</a>
+										(BeautifulSoup, tokenize), 
+										<a href="https://github.com/raynaji/USNews-WebScraping/blob/master/usnews_webscraping.R">
+											R
+										</a>
+										(rvest, dplyr, stringr) or 
+										<a href="https://github.com/raynaji/USNews-WebScraping/blob/master/usnews_websraping.java">
+											Java
+										</a>
+										(jsoup, BreakIterator).
+									</p>
+
+								</section>
+							</div>
+							
+							<!-- OMDB-->
+							<div class="col-4 col-12-medium">
+								<section class='highlight'>
+									<a class="image featured"><img src="images/omdb.jpeg" alt="" /></a>
+									<h3>
+										<a href="https://github.com/raynaji/OMDB-API-in-Python-and-Java">
+											<!--DB management of OMDb API Json file-->
+											Create your own movie database using OMDb API
+										</a>													
+									</h3>
+									<p>
+										Isn't it cool to have your own local movie database to track all the movies you watched and want to watch? Check out the script utilizing OMDb database API in either
+										<a href="https://github.com/raynaji/OMDB-API-in-Python-and-Java/blob/master/Utilize_API_in_Python.ipynb">
+											Python 
+										</a>
+										(json, PyMysql) or 
+										<a href="https://github.com/raynaji/OMDB-API-in-Python-and-Java/blob/master/OMDB_API.java">
+										Java 
+										</a>
+										(gson, java.sql).
+									</p>
+								</section>
+							</div>
+
+							<!-- MongoDB-->
+							<div class="col-4 col-12-medium">
+								<section class='highlight'>
+									<a class="image featured"><img src="images/mongodb.png" alt="" /></a>
+									<h3>
+										<a href="https://github.com/raynaji/MongoDB-to-SQL-and-MapReduce/blob/master/MongoDB_to_SQL_MapReduce.ipynb">
+											DB management of unstructured big data in MongoDB
+										</a>
+									</h3>
+									<p>
+										This project handles unstructured big data storage and manipulation (Map-Reduce) via MongoDB by using MongoClient in Python. The data can also be transformed and transferred from MongoDB to SQL database.
+									</p>
+								</section>
+							</div>
+
+							<!-- A R M -->
+							<div class="col-4 col-12-medium">
+								<section class='highlight'>
+									<a class="image featured"><img src="images/arm.png" alt="" /></a>
+									<h3>
+										<a href="https://github.com/raynaji/association_rules_mining/blob/master/AssociationRuleMining-Apriori.ipynb">
+											Recommender system based on Association Rules Mining
+										</a>
+									</h3>
+									<p>
+										Design promotion bundles? Want to know what products should be recommended next? Check out this recommender system which generated frequent itemsets and association rules via "Apriori" algorithm in Python.
+									</p>
+								</section>
+							</div>
+
+							<!-- Yelp-->
+							<div class="col-4 col-12-medium">
+								<section class='highlight'>
+									<a class="image featured"><img src="images/yelp.png" alt="" /></a>
+									<h3>
+										<a href="https://github.com/raynaji/Yelp_SA_GCP/blob/master/SentimentAnalysisOnYelpReviews.ipynb">
+											Sentiment Analysis of Yelp reviews on Google Cloud Platform
+										</a>
+									</h3>
+									<p>
+										Are rating stars everything? It's inevitable that people have different standards to give stars. This project helps you build a more pragmatic and useful rating system based on reviews sentiment analysis with uniformed standards.
+									</p>
+								</section>
+							</div>
+
+							<!-- Diabetes -->
+							<div class="col-4 col-12-medium">
+								<section class='highlight'>
+									<a class="image featured"><img src="images/diabetes.jpeg" alt="" /></a>
+									<h3>
+										<a href="https://github.com/raynaji/DiabetesPrediction/blob/master/DiabetesPrediction_GridSearchCV_LR_SVM_RF.ipynb">
+											Multiple Classification models for diabetes prediction
+										</a>
+									</h3>
+									<p>
+										By seperately applying LogisticRegression, SVM, RandomForest classification algorithms with GridSearchCV and RecursiveFeatureElimination (RFE), this projects reached an accuracy of 90.3% in diabetes prediction.
+									</p>
+								</section>
+							</div>
+
+							<!-- Biden -->
+							<div class="col-4 col-12-medium">
+								<section class='highlight'>
+									<a class="image featured"><img src="images/biden.png" alt="" /></a>
+									<h3>
+										<a href="https://github.com/raynaji/Biden_NYTimes_SA/blob/master/BidenNYTimesTextAnalysis.ipynb">
+											Modeling and analysis on NYTimes articles about 2020 primary election
+										</a>
+									</h3>
+									<p>
+										By employing topic modeling, sentiment analysis and generating word-clouds on New York Times articles, this project tells you what is mainly talked about and the media sentiments regarding Joe Biden and Bernie Sanders. 
+									</p>
+								</section>
+							</div>
+							
+							<ul class="actions special">
+								<li><a href="https://github.com/raynaji" class="button style1 large">Check out my GitHub</a></li>
+							</ul>
+
+						</div>
+					</div>
+				</section>
+			</section>
+
+			<!-- Blogs -->
+			<section id='blogs'>
+				<section id="main" class="wrapper style2">
+					<div class="title">My Blogs</div>
+					<div class="container">
+						
+						<!-- Image -->
+							<a class="image featured">
+								<img src="images/pic01.jpg" alt="" />
+							</a>
+
+						<!-- Features -->
+							<section id="features">
+							<!-- header
+								<header class="style1">
+									<h2>My Projects</h2>
+									<p>Feugiat dolor nullam orci pretium phasellus justo</p>
+								</header>
+							-->
+								<div class="feature-list">
+									<div class="row">
+										
+										<div class="col-6 col-12-medium">
+											<section>
+												<h3 class="icon fa-comment" >
+													<a href="https://medium.com/@raji_95942/how-to-contribute-to-team-productivity-when-you-are-not-the-boss-a48e6f06a4b8">
+														Contribute to Team Productivity when you are not the “Boss”
+													</a>
+												</h3>
+												<p>Based on my experiences from practicum, I summarized three points to improve team productivity as a team member but not the leader.</p>
+											</section>
+										</div>
+										
+										<div class="col-6 col-12-medium">
+											<section>
+												<h3 class="icon fa-image">
+													<a href="https://medium.com/@raji_95942/make-use-of-the-era-of-data-capitalism-9b8fd0296255">
+														The era of data capitalism
+													</a>
+												</h3>
+												<p>“This is the dawn of the era of data capitalism.” In the age of big data, capitalism has been reinvented. Check out to see how my practicum make good use of data and drive business value for our client?</p>
+											</section>
+										</div>
+										
+										<div class="col-6 col-12-medium">
+											<section>
+												<h3 class="icon solid fa-sync">
+													<a href="https://medium.com/@raji_95942/learn-colaboratively-to-write-good-blogs-391c3a2fe4ea">
+														Write better blogs
+													</a>
+												</h3>
+												<p>Blogs can be a great tool due to its great convenience for knowledge-sharing and communication. By collaborative learning, I learned writing better blogs to amplify my voices.</p>
+
+											</section>
+										</div>
+										
+										<div class="col-6 col-12-medium">
+											<section>
+												<h3 class="icon fa-cog" >
+													<a href="https://medium.com/@raji_95942/devise-the-roadmap-to-buried-gold-90fefd51e2d2">
+														Devise the roadmap to buried gold
+													</a>
+												</h3>
+												<p>As an analyst, I assume the art of data science is exactly like digging gold. How to devise a precise and easy-to-understand roadmap which is the key to treasures and also key of data analysis?</p>
+											</section>
+										</div>
+
+										<!--
+										<div class="col-6 col-12-medium">
+											<section>
+												<h3 class="icon solid fa-wrench">
+													<a href="https://github.com/raynaji/MongoDB-to-SQL-and-MapReduce">
+														MongoDB in Python
+													</a>
+												</h3>
+												<p>
+													This project handles unstructured big data storage and manipulation via MongoDB by using MongoClient in Python. I used a json file which contains reviews information as raw data.
+												</p>
+											</section>
+										</div>
+									
+										<div class="col-6 col-12-medium">
+											<section>
+												<h3 class="icon solid fa-check">Dolore laoreet aliquam mattis</h3>
+												<p>A communicator and a problem-solver who think critically about actionable business insights.</p>
+											</section>
+										</div>
+										-->
+									</div>
+								</div>
+								
+								<ul class="actions special">
+									<li><a href="https://medium.com/@raji_95942" class="button style1 large">Check out my Medium</a></li>
+								</ul>
+							</section>
+
+					</div>
+				</section>
+			</section>
+
+			<!-- Visualizations -->
+			<section id='vizs'>
+				<section id="highlights" class="wrapper style3">
+					<div class="title">My Visualizations</div>
+					<div class="container">
+						<div class="row aln-center">
+							<div class="col-4 col-12-medium">
+								<section class="highlight">
+									<a class="image featured"><img src="images/startup.png" alt="" /></a>
+									<h3>
+										<a href="https://public.tableau.com/profile/raynaji#!/vizhome/groupsandsets_15866560444120/StartupQuardrant">
+											The Startup Quadrant - Find out your invesment choices
+										</a>
+									</h3>
+									<p>A dashboard for risk investors to get a grasp of the most investment-worthy <br/> #startups #quadrant #investments</p>
+									
+								</section>
+							</div>
+							<div class="col-4 col-12-medium">
+								<section class="highlight">
+									<a class="image featured"><img src="images/world.png" alt="" /></a>
+									<h3><a href="https://public.tableau.com/profile/raynaji#!/vizhome/animations_15867218794220/WorldDemographics">
+										World Demographic Analysis
+									</a></h3>
+									<p>
+										An #animated dashboard showing how important indicators of countries have been developing over decades. Drill into individual countries via #trailRun and #highlight
+									</p>
+									
+								</section>
+							</div>
+							<div class="col-4 col-12-medium">
+								<section class="highlight">
+									<a class="image featured"><img src="images/laundry.png" alt="" /></a>
+									<h3><a href="https://public.tableau.com/profile/raynaji#!/vizhome/LaundraryStartupExtensionPlan/Dashboard1">
+										Laundrary Startup Extension Plan
+									</a></h3>
+									<p>
+										An #extension plan dashboard for a laundry startup via #ClusterAnalytics. <br/> 
+										#RegionalProfitability #TableauMaps #analytics #Groups
+									</p>
+									
+								</section>
+							</div>
+							
+							<ul class="actions special">
+								<li><a href="https://public.tableau.com/profile/raynaji#!/" class="button style1 large">Check out my Tableau</a></li>
+							</ul>
+							
+						</div>
+					</div>
+				</section>
+			</section>
+		
+		<!--Skills 
+			<section id='skills'>
+				<section id="main" class="wrapper style2">
+					<div class="title">My Skills</div>
+					<div class="container">
+						<section id="features">
+							<div class="feature-list">
+								<div class="row">
+									<div class="col-6 col-12-medium">
+										<section class="highlight">
+											<h3><a>
+												Database Management
+											</a></h3>
+											<p>
+												MYSQL <br /> Hive <br />Presto <br />Oracle
+											</p>
+										</section>
+									</div>
+									<div class="col-6 col-12-medium">
+										<section class="highlight">
+											<h3><a>
+												Programming / ELT
+											</a></h3>
+											<p>
+												Data Cleaning (Python:numpy,pandas; R:dplyr) <br />
+												Web Scraping (Python:BeautifulSoup)
+											</p>
+										</section>
+									</div>
+									<div class="col-6 col-12-medium">
+										<section class="highlight">
+											<h3><a>
+												Visualization
+											</a></h3>
+											<p>
+												Python (Matplotlib, Seaborn) <br />
+												R (ggplot2) <br />
+												Tableau <br />
+												Kepler (Geo-data) <br /> 
+											</p>
+										</section>
+									</div>
+									<div class="col-6 col-12-medium">
+										<section class="highlight">
+											<h3><a>
+												Growth Analytics
+											</a></h3>
+											<p>
+												A/B Testing  <br />
+												Retention Analysis <br />
+												AARRR Funnel <br />
+												Cohort Analysis <br />
+												Attrition Model
+											</p>
+										</section>
+									</div>
+									<div class="col-6 col-12-medium">
+										<section class="highlight">
+											<h3><a>
+												Cloud Computing
+											</a></h3>
+											<p>
+												AWS (EC2, S3, Lambda) <br />
+												AutoML
+											</p>
+										</section>
+									</div>
+									<div class="col-6 col-12-medium">
+										<section class="highlight">
+											<h3><a>
+												Machine Learning
+											</a></h3>
+											<p>
+												Supervised Learning (Regression, Classification) <br />
+												Unsupervised Learning (Clustering)
+											</p>
+										</section>
+									</div>
+									
+								</div>
+							</div>
+						</sectiion>
+					</div>
+				</section>
+			</section>
+		-->
+
+			<!-- Contact Me -->
+				<section id="footer" class="wrapper">
+					<div class="title">Contact Me</div>
+					<!-- HEADER
+					<header class="style1">
+						<h2>This is also ME</h2>
+						<p>
+							Time is always right to do the right.
+						</p>
+					</header>
+					-->
+
+					<!-- Carousel -->
+					<div class="carousel">
+						
+						<div class="reel">
+							<article>
+								<a class="image featured"><img src="images/dsac.jpg" alt="" /></a>
+								<header>
+									<h3><a>Me as a UCDavis DSAC member</a></h3>
+									<p>Directors’ Student Advisory Council</p>
+								</header>
+							</article>
+
+							<article>
+								<a class="image featured"><img src="images/aamteam.jpg" alt="" /></a>
+								<header>
+									<h3><a>Me with my MSBA practicum team</a></h3>
+									<p>With Asian Art Museum</p>
+								</header>
+							</article>
+
+							<article>
+								<a class="image featured"><img src="images/star.jpg" alt="" /></a>
+								<header>
+									<h3><a>Me at All Stars Event</a></h3>
+									<p>Guess what 5 countries we are from</p>
+								</header>
+							</article>
+							
+							<article>
+								<a class="image featured"><img src="images/dance.jpg" alt="" /></a>
+								<header>
+									<h3><a>Me at Lunar New Year Event</a></h3>
+									<p>My first dance</p>
+								</header>
+							</article>
+
+							<article>
+								<a class="image featured"><img src="images/community.jpg" alt="" /></a>
+								<header>
+									<h3><a>Me committed to the community</a></h3>
+									<p>For a village survey about FinTech</p>
+								</header>
+							</article>
+
+							<article>
+								<a class="image featured"><img src="images/exhibit.jpg" alt="" /></a>
+								<header>
+									<h3><a>Me as an exhibition translator</a></h3>
+									<hide>&\s</hide>
+								</header>
+							</article>
+
+							<article>
+								<a class="image featured"><img src="images/interpret.jpg" alt="" /></a>
+								<header>
+									<h3><a>Me as a simultaneous interpretor</a></h3>
+									<hide>&\s</hide>
+								</header>
+							</article>
+
+							<article>
+								<a class="image featured"><img src="images/ski.jpg" alt="" /></a>
+								<header>
+									<h3><a>Me loving skiing</a></h3>
+									<hide>&\s</hide>
+								</header>
+							</article>
+
+							<article>
+								<a class="image featured"><img src="images/makeup.jpg" alt="" /></a>
+								<header>
+									<h3><a>My facepainting at Halloween</a></h3>
+									<p>Guess who I was</p>
+								</header>
+							</article>
+
+							<article>
+								<a class="image featured"><img src="images/pet.jpg" alt="" /></a>
+								<header>
+									<h3><a>Me as a pet-tour guide</a></h3>
+									<p>A tour customized for pets</p>
+								</header>
+							</article>
+
+							<article>
+								<a class="image featured"><img src="images/studentunion.jpg" alt="" /></a>
+								<header>
+									<h3><a href="#">Me as a CHM of the StudentUnion</a></h3>
+									<hide>&\s</hide>
+								</header>
+							</article>
+							
+							<article>
+								<a class="image featured"><img src="images/imelda.jpg" alt="" /></a>
+								<header>
+									<h3><a href="#">Do you get it?</a></h3>
+									<p>It was Mama Imelda from COCO</p>
+								</header>
+							</article>
+
+							<article>
+								<a class="image featured"><img src="images/activity.jpg" alt="" /></a>
+								<header>
+									<h3><a href="#">Me as an event planner</a></h3>
+									<hide>&\s</hide>
+								</header>
+							</article>
+
+							<article>
+								<a class="image featured"><img src="images/gala.jpg" alt="" /></a>
+								<header>
+									<h3><a href="#">Me as a gala host</a></h3>
+									<hide>&\s</hide>
+								</header>
+							</article>
+							
+							
+						</div>
+					</div>
+
+					<!-- Footer -->
+					<div class="container">				
+						<header class="style1">
+							<!-- buttons -->
+							<ul class="actions special">
+								<li><a href="https://ruining1204.typeform.com/to/SLHb7N" class="typeform-share button" data-mode="drawer_left"  data-hide-headers=true data-hide-footer=true data-submit-close-delay="0">Message Me</a>
+									<script> (function() { var qs,js,q,s,d=document, gi=d.getElementById, ce=d.createElement, gt=d.getElementsByTagName, id="typef_orm_share", b="https://embed.typeform.com/"; if(!gi.call(d,id)){ js=ce.call(d,"script"); js.id=id; js.src=b+"embed.js"; q=gt.call(d,"script")[0]; q.parentNode.insertBefore(js,q) } })() </script>
+								</li>
+								<!-- <li><a href="#" class="button style2 large">Back to Top</a></li> -->
+								<li><a href="mailto:raji@ucdavis.edu"class="typeform-share button">Email Me</a></li>
+							</ul>
+							<!--
+							<ul class="actions special">
+								<li><a href="#" class="button large">Get Started</a></li>
+								<li><a href="#" class="button alt large">Learn More</a></li>
+							</ul>
+							-->
+
+							<ul></ul>
+
+							<!-- icons -->
+							<ul class="social">
+								<li><a href="https://twitter.com/rayna_ji" class="icon brands fa-twitter"><span class="label">Twitter</span></a></li>
+								<li><a href="https://www.facebook.com/raynaji.ucd" class="icon brands fa-facebook-f"><span class="label">Facebook</span></a></li>
+								<li><a href="https://medium.com/@raji_95942" class="icon brands fa-medium"><span class="label">Medium</span></a></li>
+								<!--
+								<li><a href="#" class="icon brands fa-dribbble"><span class="label">Dribbble</span></a></li>
+								<li><a href="#" class="icon brands fa-tumblr"><span class="label">Tumblr</span></a></li>
+								<li><a href="#" class="icon brands fa-google-plus"><span class="label">Google+</span></a></li>
+								-->
+								<li><a href="https://linkedin.com/in/raynaji/" class="icon brands fa-linkedin-in"><span class="label">LinkedIn</span></a></li>
+								<li><a href="https://github.com/raynaji" class="icon brands fa-github"><span class="label">Github</span></a></li>
+							</ul>
+						</header>
+					</div>
+				</section>
+
+		</div>
+
+		<!-- Scripts -->
+			<script src="assets/js/jquery.min.js"></script>
+			<script src="assets/js/jquery.scrollex.min.js"></script>
+			<script src="assets/js/jquery.scrolly.min.js"></script>
+			<script src="assets/js/jquery.dropotron.min.js"></script>
+			<script src="assets/js/browser.min.js"></script>
+			<script src="assets/js/breakpoints.min.js"></script>
+			<script src="assets/js/util.js"></script>
+			<script src="assets/js/main.js"></script>
+			<script src="jquery.dropotron.min.js"></script>
+			
+
+	</body>
+</html>
